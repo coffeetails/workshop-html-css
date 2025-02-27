@@ -56,6 +56,17 @@ h2 {
     margin-bottom: 20px;
 }
 
+.product ul {
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 button {
     border-radius: var(--radius);
     border: none;
